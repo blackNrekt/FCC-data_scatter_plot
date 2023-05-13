@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-color: #f8f8f8;
+    font-family: sans-serif;
+}
+
+svg {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.circle:hover {
+    
+    cursor: pointer;
+}
+
+#tooltip {
+    position: absolute;    
+    border: 1px solid #ccc;    
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #333;     
+}
+
+g#legend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+
+#legend {   
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    text-anchor: middle;
+    fill: #333333;
+  }
+  
+  #legend rect {    
+    stroke: #333333;
+    stroke-width: 1px;
+    margin-left: auto;
+  }
+
+  #legend > rect {
+    fill: black
+  }
+
+
+
+
